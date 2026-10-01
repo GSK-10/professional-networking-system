@@ -1,0 +1,42 @@
+# IDE settings and local workspace state
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# Java, Maven, and Gradle generated output
+*.class
+target/
+build/
+out/
+.gradle/
+
+# Local environment and private configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Logs, heap dumps, and temporary files
+*.log
+logs/
+*.hprof
+hs_err_pid*
+replay_pid*
+*.tmp
+*.swp
+*.swo
+*~
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
